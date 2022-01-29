@@ -27,11 +27,16 @@ body {
     "gravel"
     "symbolism"
     "footer";
-  grid-template-rows: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 header {
     grid-area: banner;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 h1 i {
@@ -40,13 +45,70 @@ h1 i {
 }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-align: center;
+  margin: 0;
 }
 
-img {
-  display: block;
-  width: 100%;
+nav ul {
+  display: flex;
+  padding: 0 0 1rem 0;
+  justify-content: center;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+  padding-right: 1rem;
+}
+
+nav li a {
+  color: #3783a3;
+  font-size: 1.125rem;
+}
+
+main {
+  padding: 1rem 1rem 1rem 1rem;
+  display: contents;
+}
+
+div {
+  grid-area: quote;
+}
+
+div p i {
+  font-size: 2rem;
+}
+
+div p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1.5rem;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border-top-color: #e2e2e2;
+  border-bottom-color: #e2e2e2;
+}
+
+section {
+  display: contents;
+}
+
+.viewing {
+  grid-area: viewing;
+}
+
+.gravel {
+  grid-area: gravel;
+}
+
+.symbolism {
+  grid-area: symbolism;
+}
+
+footer {
+  grid-area: footer;
 }
 
 @KarenMendozaGarza
