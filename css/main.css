@@ -158,4 +158,43 @@ footer {
   text-align: center;
 }
 
-@KarenMendozaGarza
+/* 608 px */
+@media only screen and (min-width: 608px) {
+
+  body {
+    display: grid;
+    grid-template-areas:
+      "h1 nav nav"
+      "banner banner banner"
+      "quote quote quote"
+      "viewing gravel symbolism"
+      "footer footer footer";
+  }
+
+  header {
+    display: contents;
+  }
+
+  h1 {
+    grid-area: h1;
+    text-align: left;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  nav ul {
+    justify-content: right;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .banner {
+    grid-area: banner;
+  }
+
+}
+
+
+/* @KarenMendozaGarza */
